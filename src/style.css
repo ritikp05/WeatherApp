@@ -254,14 +254,14 @@
     .city {
 
         margin-left: 10px;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         letter-spacing: 3px;
 
     }
 
     .Weather_app {
         min-height: 490px;
-        min-width: 290px;
+        min-width: 275px;
     }
 
     .imgsrc {
