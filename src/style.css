@@ -256,7 +256,7 @@
 
     .Weather_app {
         min-height: 460px;
-        width: 100px;
+        min-width: 105px;
     }
 
     .imgsrc {
