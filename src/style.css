@@ -42,7 +42,7 @@
 
 .Weather_app input {
     margin-top: 8px;
-    margin-left: 25%;
+    margin-left: 50px;
     outline: none;
     font-size: 1.5rem;
     width: 140px;
@@ -67,8 +67,7 @@
     margin-right: 5px;
     flex-direction: column;
     gap: 8px;
-    /* position: relative; */
-
+ 
 }
 
 .city {
@@ -76,12 +75,12 @@
     align-self: flex-start;
     margin-top: 8px;
     margin-left: 35px;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     letter-spacing: 5px;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
     font-family: cursive;
-    background-color: rgb(159, 201, 19);
+    /* background-color: rgb(159, 201, 19);/ */
     padding: 1px;
     border-radius: 5px;
 
@@ -141,6 +140,7 @@
     padding: 2px;
     border-radius: 5px;
     margin-top: 40px;
+    /* margin-right: 86px; */
     font-size: 1.3rem;
 }
 
@@ -166,13 +166,13 @@
 }
 
 .type {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-transform: capitalize;
 
     color: rgb(197, 237, 154);
     letter-spacing: 2px;
     margin-right: 4px;
-
+   
 }
 
 .btn {
@@ -192,9 +192,8 @@
 @media (max-width:435px) {
 
     .Weather_app {
-        min-height: 470px;
-        min-width: 200px;
-        /* background-color: black;   */
+        min-height: 540px;
+        min-width: 360px;
     }
 
     .imgsrc {
@@ -207,12 +206,19 @@
 
     .city {
 
-        margin-left: 20px;
-        font-size: 1.6rem;
+        margin-left: 30px;
+        font-size: 1.9rem;
         letter-spacing: 3px;
 
     }
 
+    .type {
+        font-size: 1.9rem;
+    
+        letter-spacing: 2px;
+        margin-right: 4px;
+       
+    }
     .min_max_temp {
         font-size: 1.2rem;
         padding: 2px;
@@ -248,15 +254,15 @@
 @media (max-width:380px) {
     .city {
 
-        margin-left: 5px;
-        font-size: 1.7rem;
-        letter-spacing: 2px;
+        margin-left: 10px;
+        font-size: 1.9rem;
+        letter-spacing: 3px;
 
     }
 
     .Weather_app {
-        min-height: 460px;
-        min-width: 215px;
+        min-height: 490px;
+        min-width: 300px;
     }
 
     .imgsrc {
@@ -265,39 +271,15 @@
         margin-right: 53px;
 
     }
-
-    .min_max_temp {
-        font-size: 1.1rem;
-        padding: 2px;
-
+    .type {
+        font-size: 1.8rem;
+    
+        letter-spacing: 2px;
+        margin-right: 4px;
+       
     }
 
-    .city_temp {
-        margin-top: 4px;
-        margin-bottom: 2px;
-
-    }
-
-    .city_temp span {
-        font-size: 1.6rem;
-
-
-    }
-
-
-    .humidity {
-         padding: 1.5px;
-        font-size: 1.1rem;
-
-
-    }
-
-    .windSpeed {
-        padding: 2px;
-        font-size: 1.1rem;
-
-
-    }
+   
 
 }
 
