@@ -193,23 +193,21 @@
 @media (max-width:455px) {
 
     .Weather_app {
-        min-height: 470px;
-        min-width: 210px;
+        min-height: 480px;
+        min-width: 200px;
         /* background-color: black;   */
     }
 
     .imgsrc {
         width: 180px;
         height: 110px;
-        margin-right: 80px;
-        color: wheat;
-
+        margin-right: 70px;
     }
 
     .city {
 
         margin-left: 30px;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         letter-spacing: 3px;
 
     }
