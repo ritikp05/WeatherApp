@@ -190,11 +190,11 @@
 }
 
 
-@media (max-width:435px) {
+@media (max-width:455px) {
 
     .Weather_app {
         min-height: 470px;
-        min-width: 220px;
+        min-width: 210px;
         /* background-color: black;   */
     }
 
