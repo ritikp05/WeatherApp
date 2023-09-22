@@ -267,14 +267,14 @@
     .imgsrc {
         width: 145px;
         height: 80px;
-        margin-right: 53px;
+        margin-right: 43px;
 
     }
     .type {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     
         letter-spacing: 2px;
-        margin-right: 4px;
+        margin-right: 1px;
        
     }
 
