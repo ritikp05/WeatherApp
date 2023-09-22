@@ -33,7 +33,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 540px;
-    min-width: 390px;
+    min-width: 400px;
     border-radius: 28px;
     box-shadow: 2px 4px 4px 4px gray;
 }
@@ -45,7 +45,7 @@
     margin-left: 25%;
     outline: none;
     font-size: 1.5rem;
-    width: 50%;
+    width: 140px;
     border-radius: 15px;
     text-align: center;
 
@@ -67,7 +67,7 @@
     margin-right: 5px;
     flex-direction: column;
     gap: 8px;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -140,8 +140,8 @@
     background-color: var(--bgclr);
     padding: 2px;
     border-radius: 5px;
-    margin-top: 60px;
-    margin-right: 86px;
+    margin-top: 40px;
+    /* margin-right: 86px; */
     font-size: 1.3rem;
 }
 
@@ -190,24 +190,26 @@
 }
 
 
-@media (max-width:455px) {
+@media (max-width:435px) {
 
     .Weather_app {
-        min-height: 480px;
+        min-height: 470px;
         min-width: 200px;
         /* background-color: black;   */
     }
 
     .imgsrc {
-        width: 180px;
-        height: 110px;
-        margin-right: 70px;
+        width: 200px;
+        height: 125px;
+        margin-right: 100px;
+        color: wheat;
+
     }
 
     .city {
 
         margin-left: 30px;
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         letter-spacing: 3px;
 
     }
@@ -244,7 +246,7 @@
 }
 
 
-@media (max-width:390px) {
+@media (max-width:380px) {
     .city {
 
         margin-left: 30px;
@@ -254,14 +256,14 @@
     }
 
     .Weather_app {
-        min-height: 470px;
-        min-width: 180px;
+        min-height: 460px;
+        min-width: 100px;
     }
 
     .imgsrc {
-        width: 165px;
-        height: 90px;
-        margin-right: 54px;
+        width: 145px;
+        height: 80px;
+        margin-right: 53px;
 
     }
 
@@ -285,8 +287,7 @@
 
 
     .humidity {
-        color: var(--clr);
-        padding: 2px;
+         padding: 1.5px;
         font-size: 1.1rem;
 
 
@@ -300,3 +301,6 @@
     }
 
 }
+
+
+
