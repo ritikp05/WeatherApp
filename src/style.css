@@ -253,7 +253,7 @@
 @media (max-width:380px) {
     .city {
 
-        margin-left: 10px;
+        margin-left: 8px;
         font-size: 1.8rem;
         letter-spacing: 3px;
 
@@ -271,7 +271,7 @@
 
     }
     .type {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     
         letter-spacing: 2px;
         margin-right: 1px;
