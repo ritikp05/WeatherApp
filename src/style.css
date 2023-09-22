@@ -172,6 +172,7 @@
 
     color: rgb(197, 237, 154);
     letter-spacing: 2px;
+    margin-right: 4px;
 
 }
 
@@ -189,7 +190,7 @@
 }
 
 
-@media (max-width:425px) {
+@media (max-width:435px) {
 
     .Weather_app {
         min-height: 470px;
